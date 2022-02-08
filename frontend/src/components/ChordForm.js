@@ -1,8 +1,8 @@
 import React, {useState, useRef} from "react"
 
-import ChordOption from "./ChordOption.js"
-import ExtensionOption from "./ExtensionOption.js"
-import InversionOption from "./InversionOption.js"
+import ChordOption from "./ChordOption"
+import ExtensionOption from "./ExtensionOption"
+import InversionOption from "./InversionOption"
 import { chordData, inversionData } from "../musicTheory/chordData"
 import {intervals, majorTriad, minorTriad, dimTriad, majorSeventh, minorSeventh, majorAdd9, minorAdd9, rootLookup, flavorLookup, chordBuilder} from "../musicTheory/chordGenerator"
 
@@ -33,7 +33,7 @@ const ChordForm = props =>{
                 {extension}
             </option>
         ))
-
+        
 // const states = countriesData
 // .find((item) => item.name === country)
 // ?.states.map((state) => (
