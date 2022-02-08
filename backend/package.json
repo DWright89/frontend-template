@@ -3,7 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "jest": "^27.4.7"
+  },
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "knex": "^1.0.1",
+    "objection": "^3.0.1",
+    "pg": "^8.7.1"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }

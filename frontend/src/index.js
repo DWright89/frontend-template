@@ -1,9 +1,13 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import Home from "./components/Home.jsx"
+
+import Midi from "./components/Midi.js"
+// import MIDIClass from "./components/MidiClass.jsx"
+
 
 
 ReactDOM.render(
-    <Home />,
+   
+    <Midi />,
     document.getElementById('app')
   );
